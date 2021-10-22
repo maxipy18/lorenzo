@@ -39,4 +39,8 @@ body {
     padding-left: 7px;
     padding-right: 7px;
     margin: 0 auto;
+
+    @media (max-width:768px) {
+        padding: 0 30px;
+    }
 }
