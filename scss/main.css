@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+  font-family: 'Righteous', cursive;
+  font-size: 14px;
+  color: #fff;
+}
+
+.main-bg {
+  background-color: #459c45;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.main-bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  max-width: 1150px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 178px;
+}
+
+.header-row {
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo__img {
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+
+.header-logo__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-logo__text {
+  font-size: 16px;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-link:hover .header-link__img {
+  fill: #EBCF6F;
+}
+
+.header-link__img {
+  fill: #E6DFC7;
+  margin-right: 10px;
+}
+
+.header-link__img:hover {
+  fill: #EBCF6F;
+}
+
+.header-burger {
+  width: 48px;
+  height: 48px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.header-burger__img {
+  fill: #E6DFC7;
+}
+
+.header-burger:hover .header-burger__img {
+  fill: #EBCF6F;
+}
+
+.main-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content__title {
+  font-size: 64px;
+  line-height: 79px;
+  margin-bottom: 61px;
+  position: relative;
+}
+
+.main-content__title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: #E6DFC7;
+  width: 100px;
+  height: 2px;
+  left: 0;
+  bottom: -27px;
+}
+
+.main-content__text {
+  max-width: 368px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 80px;
+}
+
+.main-content__button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #E6DFC7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 64px;
+  border: 2px solid #E6DFC7;
+  background: rgba(230, 223, 199, 0.24);
+}
+
+.main-content__button:hover {
+  color: #EBCF6F;
+  border: 2px solid #EBCF6F;
+  background: rgba(235, 207, 111, 0.24);
+}
+
+.social-list {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+}
+
+.social-list-item {
+  margin-bottom: 20px;
+}
+
+.social-list::after, .social-list::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 2px;
+  height: 100px;
+  background-color: #E6DFC7;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.social-list::before {
+  top: -20px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.social-link__icon {
+  fill: #E6DFC7;
+}
+
+.social-link:hover .social-link__icon {
+  fill: #EBCF6F;
+}
+/*# sourceMappingURL=main.css.map */
