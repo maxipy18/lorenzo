@@ -303,22 +303,12 @@ body {
 }
 
 .overlay-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  text-align: right;
   margin-bottom: 268px;
 }
 
 .overlay-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  text-align: right;
 }
 
 .overlay-menu-list {

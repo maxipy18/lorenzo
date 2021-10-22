@@ -9,15 +9,13 @@
     background: rgba(17, 17, 17, 0.9);
     display: none;
 
-    &-header {
-        display: flex;
-        justify-content: right;
+    &-header {        
+        text-align: right;
         margin-bottom: 268px;
     }
 
-    &-menu {
-        display: flex;
-        justify-content: right;        
+    &-menu {         
+        text-align: right;       
 
         &-list {
             list-style: none;
