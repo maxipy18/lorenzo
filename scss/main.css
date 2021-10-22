@@ -299,6 +299,7 @@ body {
   right: 0;
   bottom: 0;
   background: rgba(17, 17, 17, 0.9);
+  display: none;
 }
 
 .overlay-header {
