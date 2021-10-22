@@ -289,4 +289,69 @@ body {
 .social-link:hover .social-link__icon {
   fill: #EBCF6F;
 }
+
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(17, 17, 17, 0.9);
+}
+
+.overlay-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-bottom: 268px;
+}
+
+.overlay-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.overlay-menu-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.overlay-menu-list__item-link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 48px;
+  color: #fff;
+}
+
+.overlay-menu-list__item-link.active {
+  color: #EBCF6F;
+}
+
+.close-btn {
+  margin-top: 40px;
+  cursor: pointer;
+  fill: #E6DFC7;
+}
+
+.close-btn:hover {
+  fill: #EBCF6F;
+}
 /*# sourceMappingURL=main.css.map */
